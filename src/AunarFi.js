@@ -16,9 +16,7 @@ const AunarFi = () => {
   const [amount_2, setAmount_2] = useState('');
 
   return (
-
       <div className={styles.AunarFi}>
-        
           <div className={styles.infonav}>
             {/*NAV BAR transparent & blur effect with  no border
             - Icon far left
@@ -83,18 +81,7 @@ const AunarFi = () => {
           <button onClick className={styles.submitButton}>Tap Liquidity</button>
         </div>
       </div>
-    
+
 )}
-  
-      
-      
-    
+
 export default AunarFi;
-
-
-    
-
-
-
-
-
