@@ -25,6 +25,7 @@ export default function AunarFi() {
 
 	return (
 		<div className={styles.AunarFi}>
+			<div className={styles.navbar}>
 			<header className={styles.infonav}>
 				{web3 ? null : (
 					<button
@@ -35,11 +36,12 @@ export default function AunarFi() {
 					</button>
 				)}
 			</header>
-			<div className={styles.header}>
-				<h1>AunarFi</h1>
-				<h2> Cross-Chain Liquidity Bridging </h2>
 			</div>
 			<main className={styles.main}>
+				<div className={styles.header}>
+					<h1>AunarFi</h1>
+					<h2> Cross-Chain Liquidity Bridging </h2>
+				</div>
 				<div className={styles.formContainer}>
 					<form className={styles.form}>
 						<label>Chain ID:</label>

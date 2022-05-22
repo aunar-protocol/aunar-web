@@ -1,5 +1,6 @@
 * AunarFi {
 	font-family: 'kanit', 'san serif';
+
 }
 /*
   * {
@@ -7,48 +8,80 @@
   } */
 
 body {
-	overflow: auto;
+	overflow: hidden;
 	background-color: #121212;
 	color: #f0f0f0;
 	font-family: 'kanit', 'san serif';
 }
 
 .header {
-	background-color: #121212;
+	background-color: #181818;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+  margin-top: 5px ;
 	font-size: calc(10px + 2vmin);
 	color: whitesmoke;
+  border-radius: 5px;
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  
 }
+
+.navbar {
+  position:relative;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+
+}
+
 
 .infonav {
 	display: flex;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 80%;
+
 }
 
 .button {
+  color: #121212;
 	background-color: #48EA90;
-	min-width: 256px;
-	padding: 8px;
+	min-width: 264px;
+  font-family: 'kanit', 'san serif';
+  font-weight: bolder;
+	padding: 12px;
 	border-radius: 4px;
 	border: none;
+  margin-bottom: 15px;
 }
 
 .main {
+  background-color: #181818;
 	display: flex;
+  margin-inline: 22.5em;
+  margin-bottom: 10px;
+  width: 40em;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+  border-radius: 20px;
+	box-shadow: 2px 2px 8px #48EA90;
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
 }
 
 .formContainer {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 32px;
+	margin-bottom: 10px;
 	font-weight: bold;
+
 }
 
 .form {
@@ -58,10 +91,13 @@ body {
 	width: 200px;
 	flex-direction: column;
 	margin: 10px;
-	background: #202020;
+  margin-top: -2em;
+	background-color: #262626;
 	box-shadow: 2px 2px 8px #48EA90;
 	border-radius: 5px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 20px );
 }
 
 
@@ -85,7 +121,7 @@ body {
 .AunarFi h2 {
 	font-size: 20px;
 	color: white;
-	margin-bottom: 30px;
+  margin-bottom: 50px;
 	text-align: center;
 }
 .AunarFi input,
